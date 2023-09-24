@@ -45,3 +45,4 @@ quantized_model = Load(
     save_folder="/content/new_model"  # Folder where the quantized model is located
 )
 ```
++ **Author** : Kirouane Ayoub
