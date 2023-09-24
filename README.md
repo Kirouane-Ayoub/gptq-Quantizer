@@ -27,7 +27,7 @@ pip install gptq-Quantizer==1.0
 
 ```python
 from gptq_Quantizer import gptq_Quantizer
-llm_quantizer = gptq_Quantizer.Quantizer("facebook/opt-125m" )
+llm_quantizer = gptq_Quantizer.Quantizer("facebook/opt-125m" ) # The target model (e.g., "facebook/opt-125m")
 llm_quantizer.run(
     bits=4,  # Number of bits for quantization (e.g., 4 bits)
     block_name_to_quantize="model.decoder.layers",  # Name of the block to be quantized
